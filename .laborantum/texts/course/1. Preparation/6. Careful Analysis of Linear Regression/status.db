@@ -1,0 +1,395 @@
+{
+    "correct": 0.9487179487179487,
+    "testStatus": [
+        {
+            "name": "root -> case_0 -> raw_design_shape",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> case_0 -> raw_feature_means",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> case_0 -> raw_feature_stds",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> case_0 -> zero_loss",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> case_0 -> raw_normal_equation_weights",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> case_0 -> raw_normal_equation_loss",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> case_0 -> raw_gram_eigenvalues",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> case_0 -> raw_condition_number",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> case_0 -> raw_two_feature_normal_equation_weights",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> case_0 -> raw_two_feature_gd_final_weights",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> case_0 -> raw_two_feature_loss_history",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> case_0 -> raw_two_feature_eigenvalues",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> case_0 -> decorrelated_two_feature_normal_equation_weights",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> case_0 -> decorrelated_two_feature_gd_final_weights",
+            "ok": false,
+            "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nreceived average mismatch: 0.001302"
+        },
+        {
+            "name": "root -> case_0 -> decorrelated_two_feature_loss_history",
+            "ok": false,
+            "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nreceived average mismatch: 0.004574"
+        },
+        {
+            "name": "root -> case_0 -> decorrelated_two_feature_eigenvalues",
+            "ok": false,
+            "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nreceived average mismatch: 0.020833334"
+        },
+        {
+            "name": "root -> case_0 -> decorrelated_covariance",
+            "ok": false,
+            "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nreceived average mismatch: 0.0004437962509201282"
+        },
+        {
+            "name": "root -> case_0 -> normalized_two_feature_normal_equation_weights",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> case_0 -> normalized_two_feature_gd_final_weights",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> case_0 -> normalized_two_feature_loss_history",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> case_0 -> normalized_two_feature_eigenvalues",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> case_0 -> all_normalized_normal_equation_weights",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> case_0 -> all_normalized_normal_equation_loss",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> case_0 -> all_normalized_gd_final_weights",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> case_0 -> all_normalized_loss_history",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> case_0 -> all_normalized_eigenvalues",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> case_1 -> raw_design_shape",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> case_1 -> raw_feature_means",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> case_1 -> raw_feature_stds",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> case_1 -> zero_loss",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> case_1 -> raw_normal_equation_weights",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> case_1 -> raw_normal_equation_loss",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> case_1 -> raw_gram_eigenvalues",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> case_1 -> raw_condition_number",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> case_1 -> raw_two_feature_normal_equation_weights",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> case_1 -> raw_two_feature_gd_final_weights",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> case_1 -> raw_two_feature_loss_history",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> case_1 -> raw_two_feature_eigenvalues",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> case_1 -> decorrelated_two_feature_normal_equation_weights",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> case_1 -> decorrelated_two_feature_gd_final_weights",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> case_1 -> decorrelated_two_feature_loss_history",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> case_1 -> decorrelated_two_feature_eigenvalues",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> case_1 -> decorrelated_covariance",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> case_1 -> normalized_two_feature_normal_equation_weights",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> case_1 -> normalized_two_feature_gd_final_weights",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> case_1 -> normalized_two_feature_loss_history",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> case_1 -> normalized_two_feature_eigenvalues",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> case_1 -> all_normalized_normal_equation_weights",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> case_1 -> all_normalized_normal_equation_loss",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> case_1 -> all_normalized_gd_final_weights",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> case_1 -> all_normalized_loss_history",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> case_1 -> all_normalized_eigenvalues",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> case_2 -> raw_design_shape",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> case_2 -> raw_feature_means",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> case_2 -> raw_feature_stds",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> case_2 -> zero_loss",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> case_2 -> raw_normal_equation_weights",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> case_2 -> raw_normal_equation_loss",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> case_2 -> raw_gram_eigenvalues",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> case_2 -> raw_condition_number",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> case_2 -> raw_two_feature_normal_equation_weights",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> case_2 -> raw_two_feature_gd_final_weights",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> case_2 -> raw_two_feature_loss_history",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> case_2 -> raw_two_feature_eigenvalues",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> case_2 -> decorrelated_two_feature_normal_equation_weights",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> case_2 -> decorrelated_two_feature_gd_final_weights",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> case_2 -> decorrelated_two_feature_loss_history",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> case_2 -> decorrelated_two_feature_eigenvalues",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> case_2 -> decorrelated_covariance",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> case_2 -> normalized_two_feature_normal_equation_weights",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> case_2 -> normalized_two_feature_gd_final_weights",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> case_2 -> normalized_two_feature_loss_history",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> case_2 -> normalized_two_feature_eigenvalues",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> case_2 -> all_normalized_normal_equation_weights",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> case_2 -> all_normalized_normal_equation_loss",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> case_2 -> all_normalized_gd_final_weights",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> case_2 -> all_normalized_loss_history",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> case_2 -> all_normalized_eigenvalues",
+            "ok": true,
+            "status": "OK"
+        }
+    ]
+}
