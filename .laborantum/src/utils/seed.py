@@ -11,3 +11,4 @@ def seed_all(seed_value):
     torch.cuda.manual_seed_all(seed_value)
 
     torch.backends.cudnn.deterministic = True
+    torch.backends.cudnn.benchmark = False
